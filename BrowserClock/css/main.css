@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-color: #302e34;
+}
+#clock {
+    font-family: 'Space Mono', monospace;
+    font-size: 200px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    text-shadow: 0 0 50px #0b0980;
+    border: double white;
+    box-shadow: 0 0 50px #0b0980;
+}

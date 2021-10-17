@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    width: 1350px;
+}
+.slide {
+    position: relative;
+    left: 557px;
+    top: -132px;
+    width: 436px; 
+    display: none;
+}
+.slide.active {
+    display: block;
+    
+}
+.topMenu {
+    position: relative;
+    display: block;
+    width: 1350px;
+    height: 65px;
+    background-color: #eceef4;
+}
+.topMenuButtonTop {
+
+}
+.topMenuButtonTopUl {
+    position: relative;
+    margin-left: 100px;
+    list-style: none;
+    display: flex;
+    top: 10px;    
+}
+ul.topMenuButtonTopUl li{
+    margin-left: 5px;
+}
+ul.topMenuButtonTopUl li button {
+    position: relative;
+    height: 35px;
+    cursor: pointer;
+}
+ul.topMenuButtonTopUl li img:hover {
+    filter: drop-shadow(2px 4px 6px black);
+}
+.topMenuSocial {
+    position: absolute;
+}
+.topMenuSocialUl {
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin-left: 950px;
+    bottom: 20px;
+}
+ul.topMenuSocialUl li {
+    margin-left: 30px;
+    border-left: solid;
+    border-color: rgb(189,189,189);
+    border-width: 1px;
+    position: relative;
+    top: -18px;
+    height: 65px;
+    padding-left: 10px;
+    left: -45px;
+}
+.topMenuSocialUlSocial-G {
+    width: 53px;
+    border-right: solid;    
+    border-color: rgb(189,189,189);
+    border-width: 1px;
+}
+.topMenuSocialUl button {
+    position: relative;
+    height: 24px;
+    width: 25px;
+    border: none;
+    top: 18px;
+    left: 3px;
+    cursor: pointer;
+}
+.topMenuSocialUl img {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    left: 7px;
+}
+.topMenuLogo {
+    position: relative;
+    margin-left: 120px;
+    top: 75px;
+}
+.topMenuLink {
+    position: relative;
+    top: 20px;
+}
+.aheaderContactIconPhone {
+    position: absolute;
+    background-image: url(../img/Header-Contact-Icon-Phone.jpg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    left: -5px;
+    top: -3px;    
+    border-right: solid;
+    background-position-y: 5px;
+    border-color: rgb(189,189,189);
+    border-width: 1px
+}
+.aheaderContactIconPhone:hover {
+    background-image: url(../img/Header-Contact-Icon-Phone2.jpg);
+    background-repeat: no-repeat;
+}
+.aheaderContactIconPhone:hover::after {
+    width: 160px;
+    height: 20px;
+    content: attr(data-title);
+    position: absolute;
+    left: -73px;
+    bottom: 50px;
+    z-index: 1;
+    border: 1px solid rgb(189,189,189);
+    background-color: white;
+    border-radius: 5px;
+    color: #868689;
+    text-align: center;
+    padding: 5px;
+}
+.aHeaderContactIconPosition {
+    position: absolute;
+    background-image: url(../img/Header-Contact-Icon-Position2.jpg);      
+    background-repeat: no-repeat;    
+    width: 50px;
+    height: 100px;    
+    left: 55px;
+    top: -1px;
+}
+.aHeaderContactIconPosition:hover {
+    background-image: url(../img/Header-Contact-Icon-Position.jpg);
+    background-repeat: no-repeat;
+}
+.aHeaderContactIconPosition:hover::after {
+    width: 160px;
+    height: 20px;
+    content: attr(data-title);
+    position: absolute;
+    left: -73px;
+    bottom: 112px;
+    z-index: 1;
+    border: 1px solid rgb(189,189,189);
+    background-color: white;
+    border-radius: 5px;
+    color: #868689;
+    text-align: center;
+    padding: 5px
+}
+.aHeaderContactIconLetter {
+    position: absolute;
+    background-image: url(../img/Header-Contact-Icon-Letter.jpg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    left: 100px;
+    top: -2px;
+    border-left: solid;
+    background-position-y: 5px;
+    border-color: rgb(189,189,189);
+    border-width: 1px;
+    background-position-x: 15px;
+}
+.aHeaderContactIconLetter:hover {
+    background-image: url(../img/Header-Contact-Icon-Letter2.jpg);
+    background-repeat: no-repeat;
+}
+.aHeaderContactIconLetter:hover::after {
+    width: 160px;
+    height: 20px;
+    content: attr(data-title);
+    position: absolute;
+    left: -55px;
+    bottom: 51px;
+    z-index: 1;
+    border: 1px solid rgb(189,189,189);
+    background-color: white;
+    border-radius: 5px;
+    color: #868689;
+    text-align: center;
+    padding: 5px
+}
+.headerContactIconPosition {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding: 0px 25px;
+}
+.topMenuLinkUl {
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    left: 1000px;
+}
+ul.topMenuLinkUl li {
+    margin-left: 20px;
+}
+.topNavMenuDiv {
+    position: relative;
+    top: 67px;
+}
+.topNavMenuDivUl {
+    position: relative;
+    display: flex;
+    top: 59px;
+    left: 110px;
+}
+ul.topNavMenuDivUl li {
+    margin-left: 15px;
+    list-style-type: none;
+    border-left: solid 1px grey;
+    height: 82px;
+}
+ul.topNavMenuDivUl li a {
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    color: rgb( 109, 110, 113 );
+}
+.topNavMenuDivUlArrow {
+    /* background-image: url(../img/Header-Arrow-active.jpg); */
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-position-y: 81px;
+}
+.topNavMenuDivUlArrow:hover {
+    transition-delay: 0s;
+    transition-duration: 1s;
+    background-image: url(../img/Header-Arrow-active.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 74px;
+    background-position-x: center;
+    padding-bottom: 10px;
+}
+ul.topNavMenuDivUl li a:hover {
+    color: rgb(36,170,233);        
+}
+
+ul.topNavMenuDivUl li img {
+    position: relative;
+    left: 280px;
+    bottom: 5px;
+}
+.mainDivImg {
+    position: relative;
+    top: 280px;
+}
+.WhatAboutISAMA {
+    position: relative;
+    top: 250px;
+    margin-left: 350px;
+    width: 270px;
+}
+.WhatAboutISAMAimg {
+    position: relative;
+    left: -120px;
+    top: 90px;
+}
+.WhatAboutISAMA h2 {
+    font-size: 22px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    font-weight: bold;
+    line-height: 40px;
+}
+.WhatAboutISAMA p {
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.WhyWeExist {
+    position: relative;
+    margin-left: 800px;
+    bottom: 60px;
+    width: 270px;
+}
+.WhyWeExistImg {
+    position: relative;
+    left: -130px;
+    top: 90px;
+}
+.WhyWeExist h2 {
+    font-size: 22px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    font-weight: bold;
+    line-height: 40px;
+}
+.WhyWeExist p{
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    line-height: 15px;
+    font-size: 12px;
+}
+.WhatWeDoDiv {
+    position: relative;
+    top: 100px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.WhatWeDoDivImg {
+    position: relative;
+    right: 190px;
+    top: 100px;
+}
+.WhatWeDoDiv h1 {
+    font-size: 32px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    font-weight: bold;
+    line-height: 25px;
+    position: relative;
+    top: 15px;
+}
+.WhatWeDoDivP {
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );    
+    font-size: 15px;
+    left: 140px;
+}
+.WhatWeDoTable {
+    position: relative;
+    top: 200px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.WhatWeDoTableImg {
+    position: relative;
+    right: 100px;
+    top: 90px;
+}
+.WhatWeDoTable h2 {
+    font-size: 22px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    font-weight: bold;
+    line-height: 40px;
+}
+.WhatWeDoTable p {
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    line-height: 15px;
+    font-size: 12px;
+}
+.WhatWeDoTable td {
+    position: relative;
+    padding-left: 200px;
+    right: 50px;
+}
+.OurProjectsDiv {
+    /* position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    top: 350px; */
+    position: relative;
+    top: 250px;
+    height: 510px;
+    padding-left: 650px;
+    background-color: #efefef;
+}
+.OurProjectsDivImg {
+    position: relative;
+    top: 60px;
+    right: 160px;
+}
+.OurProjectsDiv h1 {
+    font-size: 32px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    font-weight: bold;
+    line-height: 25px;
+    position: relative;
+    bottom: 20px;
+}
+.OurProjectsDiv p {
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    line-height: 15px;
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+}
+.OurProjectsDivButton {
+    top: 405px;
+    background-color: #efefef;
+}
+.OurProjectsDivButton ul {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.OurProjectsDivButton li {
+    position: relative;
+    display: inline;
+}
+.OurProjectsDivButton li button {
+    padding: 5px 40px;
+    font-family: "OpenSans";
+    color: rgb( 187, 187, 187 );
+    font-weight: bold;
+}
+.all:hover {
+    border-radius: 5px;
+    border-color: white;    
+    background-color: white;
+    color: #6d6e71;
+    padding: 5px 40px;
+}
+.apps:hover {
+    border-radius: 5px;
+    border-color: white;    
+    background-color: white;
+    color: #6d6e71;
+    padding: 5px 40px;
+}
+.identities:hover {
+    border-radius: 5px;
+    border-color: white;    
+    background-color: white;
+    color: #6d6e71;
+    padding: 5px 40px;
+}
+.interiorDesign:hover {
+    border-radius: 5px;
+    border-color: white;    
+    background-color: white;
+    color: #6d6e71;
+    padding: 5px 40px;
+}
+.uIUx:hover {
+    border-radius: 5px;
+    border-color: white;    
+    background-color: white;
+    color: #6d6e71;
+    padding: 5px 40px;
+}
+.companyDiv {
+    position: relative;   
+    /* top: 405px; */
+    background-color:rgb( 239, 239, 239 ) ;
+    z-index: 10;
+}
+.companyDivTable {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0px 100px 0px;
+    border-spacing: 15px;
+}
+.companyDivTable td {
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+.companyDivTableLinkMore {
+    width: 235px;
+    height: 40px;
+    background-color: white;
+}
+.companyDivTableLink {
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.companyDivTableMore {
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+.companyDivTableImg {
+    position: relative;
+    width: 235px;
+    height: 210px;
+}
+.MeetOurTeam {
+    position: relative;
+    bottom: 400px;
+}
+.MeetOurTeamDiv {
+    position: relative;
+    top: 350px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.MeetOurTeamDivImg {
+    position: relative;
+    right: 150px;
+    top: 100px;
+}
+.MeetOurTeamDiv h1 {
+    font-size: 32px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    font-weight: bold;
+    line-height: 50px;
+}
+.MeetOurTeamDiv p {
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    line-height: 15px;
+    font-size: 12px;
+}
+.tableTeam {
+    position: relative;
+    top: 400px;
+    width: fit-content;
+    margin: 0 auto;
+    border-spacing: 20px;
+    z-index: 10;
+}
+.tableTeam td {
+    
+}
+.tableTeamFoto {
+    
+}
+.MeetOurTeamUl {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    bottom: 130px;
+}
+.MeetOurTeamUl li {
+    margin-left: 0px;
+    position: relative;    
+    padding: 0px 15px;
+    left: 40px;
+}
+.tableTeam h3 {
+    position: relative;
+    font-size: 22px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    bottom: 200px;
+}
+.tableTeam p {
+    position: relative;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    line-height: 15px;
+    font-size: 12px;
+    text-align: center;
+    bottom: 205px;
+}
+.footerDiv {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    top: 350px;
+    background-image: url(../img/Footer-contact-map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    position: relative;
+    bottom: 380px;
+}
+a.footerDivMapPlace{    
+    background-image: url(../img/Footer-contact-place1.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 63px;
+    width: 63px;
+    height: 63px;    
+}
+.footerDivMapPlace:hover::after {
+    width: 160px;
+    height: 40px;
+    content: attr(data-title);
+    position: absolute;
+    left: -50px;
+    bottom: 75px;
+    z-index: 1;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    color: #868689;
+    padding: 10px;
+}
+a.footerDivMapPlace:hover {       
+    background-image: url(../img/Footer-contact-place12.jpg);    
+}
+.footerDivMapEmail:hover::after {
+    width: 160px;
+    height: 40px;
+    content: attr(data-title);
+    position: absolute;
+    left: -50px;
+    bottom: 75px;
+    z-index: 1;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    color: #868689;
+    text-align: center;
+    padding: 10px;
+}
+a.footerDivMapEmail {
+    background-image: url(../img/Footer-contact-email.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 63px;
+    width: 63px;
+    height: 63px;
+}
+a.footerDivMapEmail:hover {
+    background-image: url(../img/Footer-contact-email2.jpg);    
+}
+a.footerDivMapTel {
+    background-image: url(../img/Footer-contact-tel.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 63px;
+    width: 63px;
+    height: 63px;
+}
+.footerDivMapTel:hover::after {
+    width: 160px;
+    height: 40px;
+    content: attr(data-title);
+    position: absolute;
+    left: -50px;
+    bottom: 75px;
+    z-index: 1;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    color: #868689;
+    text-align: center;
+    padding: 10px;
+}
+a.footerDivMapTel:hover {
+    background-image: url(../img/Footer-contact-tel2.jpg);
+}
+
+.footerDivMap ul {
+    position: relative;
+    left: 585px;
+    top: 245px;
+    display: flex;
+}
+.footerDivMap li {
+    position: relative;
+    list-style-type: none;
+    display: inline;
+    /* top: 210px;
+    left: 100px; */
+}
+.footerDivMap img {    
+    width: 63px;   
+}
+.footerDivSocial {
+
+}
+.footerDivSocial ul {
+    position: relative;
+    left: 10px;
+}
+.footerDivSocial li {
+    list-style-type: none;
+    position: relative;
+    display: inline;
+    top: 60px;
+    left: 277px;
+    padding: 7px;
+}
+.foterBottom {
+    position: relative;
+    top: 255px;   
+    height: 180px;
+    background-image: url(../img/footer-all.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footerFormSend {
+    position: relative;
+    left: 675px;
+    top: 12px;
+}
+.footerFormSendImg {
+    position: relative;
+    border-radius: 5px;
+    top: 17px;
+    left: 5px;
+}
+.footerFormSendInput {
+    position: relative;
+    left: 10px;
+    bottom: -9px;
+    width: 240px;   
+    background-color: rgb( 57, 59, 60 );        
+    color: white;
+    background-repeat: no-repeat;
+    border-color: rgb( 57, 59, 60 );
+    border-style: dashed;
+}
+.footerFormSendButton {
+    position: relative;
+    left: 50px;
+    top: 21px;
+    background: #575960;
+    border-radius: 10px;
+    height: 35px;
+    width: 54px;
+    cursor: pointer;
+}
+.footerFormSendButtonImg {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+.footerDubleLink {
+
+}
+.footerDubleLink ul {
+    position: relative;    
+    left: 835px;
+    top: 52px;
+}
+.footerDubleLink a {
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    top: 12px;
+}
+.footerDubleLink li {    
+    padding: 5px;
+    position: relative;
+    display: inline;
+    top: 10px; 
+    z-index: 10;   
+}
+address {
+    position: relative;
+    font-size: 10px;
+    font-family: "OpenSans";
+    color: rgb( 109, 110, 113 );
+    top: 60px;
+    left: 274px;
+  }

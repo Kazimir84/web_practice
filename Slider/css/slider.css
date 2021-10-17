@@ -1,0 +1,97 @@
+/* Slider */
+body {
+    padding: 10px;
+    background: #1f1f1f;
+}
+
+.carousel {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0px;
+}
+
+.carousel img {
+    width: 1280px;
+    height: 729px;
+    display: block;
+}
+.prev {
+    left: -50px;
+    position: absolute;
+    top: 50%;
+    font-size: 60px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    transition: transform 0.5s, color 0.2s;
+    cursor: pointer;
+}
+.prev:active {
+    color: aqua;
+}
+.next {
+    left: 1290px;
+    position: absolute;
+    top: 50%;
+    font-size: 60px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    transition: transform 0.5s, color 0.2s;
+    cursor: pointer;
+}
+.next:active {
+    color: aqua;
+}
+.gallery {
+    width: 1280px;
+    height: 729px;
+    overflow: hidden;
+    border-radius: 55px;
+}
+.gallery ul {
+    height: 130px;
+    width: 99999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 2500ms;
+}
+
+.gallery li {
+    display: inline-block;
+}
+
+.slideCounter{
+    position: absolute;
+    left: 365px;
+    top: 860px;
+    font-size: 50px;
+    color: red;   
+    text-shadow: 0px 0px 10px red;
+}
+.slideCounterN{
+    position: absolute;
+    left: 750px;
+    top: 860px;
+    font-size: 50px;
+    color: red;   
+    text-shadow: 0px 0px 10px red;    
+}
+#start{
+    position: relative;
+    top: -50px;
+    left: 85%;
+    background: rgb(88, 101, 216);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    opacity: 0.6;
+}
+#start:hover{
+    opacity: 1;
+}

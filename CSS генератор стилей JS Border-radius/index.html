@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">     
+     <meta name="viewport" content="width=device-width, initial-scale=1">          
+        
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" /> <!--  link на подключение Reset CSS -->
+     <link rel="stylesheet" href="./css/style.css">
+     <title>CSS Генератор Border-radius</title>
+</head>
+<body>
+    <h1>CSS Генератор Border-radius</h1>
+    <div class="wrapper-flex">
+        <div class="wrapper">
+            <div class="wrapper-top">
+                <div class="top-left-range">
+                    <input 
+                        type="range"
+                        class="input"
+                        id="tlr"
+                        min='0'
+                        max=100
+                        value="0"
+                    >
+                    <div class="result" id="result-tlr">0</div>
+                </div>
+                <div class="top-right-range">
+                    <input 
+                        type="range"
+                        class="input"
+                        id="trr"
+                        min='0'
+                        max=100
+                        value="0"
+                    >
+                    <div class="result" id="result-trr">0</div>
+                </div>
+            </div>
+            <div class="wrapper-midle">
+                <div id="cube"></div>
+            </div>
+            <div class="wrapper-bottom">
+                <div class="bottom-left-range">
+                    <input 
+                        type="range"
+                        class="input"
+                        id="blr"
+                        min='0'
+                        max=100
+                        value="0"
+                    >
+                    <div class="result" id="result-blr">0</div>
+                </div>
+                <div class="bottom-right-range">
+                    <input 
+                        type="range"
+                        class="input"
+                        id="brr"
+                        min='0'
+                        max=100
+                        value="0"
+                    >
+                    <div class="result" id="result-brr">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="total-result">
+            <button id="btn">Вычислить результат</button>
+            <span>Border-radius : </span> <span id="totalResult"></span>
+        </div>
+        <div  class="btnReset">
+            <button id="btnReset">Сбросить результат</button>
+        </div>
+    </div>
+   
+    <script src="./js/mine.js"></script>
+</body>
+</html>

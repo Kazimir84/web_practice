@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;    
+    background-color: rgb(247, 236, 247);
+    
+}
+
+body {
+    width: 100%;
+    
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.div-front-foto {
+    background-image: url(../image/b-b-1100-1323428800-307-1357815010-376.jpg);
+    background-size: 100%;    
+}
+
+img.front-foto {
+    margin-top: 50px;
+    margin-bottom: -5px;
+    width: 100%;
+}
+
+a.head-font {
+    text-decoration: none;
+    background-color: rgb(221, 78, 26);
+    color: rgb(226, 213, 213);
+}
+a.head-font:hover {
+    color: red;
+}
+
+a {
+    color: rgb(221, 78, 26);
+}
+
+a:hover {
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+.main-content {
+    
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+}
+
+.wrapper {    
+    margin: 40px 40px 40px 40px;
+    /*margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 140px;*/
+}
+
+.top-conteiner {
+    size: 100%;
+}
+
+header {
+    margin-bottom: -18px;
+}
+
+.top-name {
+    font-weight: 500;
+    letter-spacing: -0.5mm;
+    font-size: 55px;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-image: url(../image/b-b-1100-1323428800-307-1357815010-376.jpg);
+    background-size: 100%;
+    
+}
+
+.hovering { 
+    color:  rgb(134, 126, 126);   
+    text-align: right;
+    padding-right: 10px;
+    /*margin: 15px;*/
+    position: relative; bottom: 60px; left: 950px;    
+    max-width: 300px;
+    min-width: 100px;
+    font-style: normal;    
+    background-color: initial;
+}
+
+.top-site {
+    text-decoration: none;
+    color: rgb(134, 126, 126);
+    font-style: normal;    
+    background-color: initial;
+}
+
+.top-site:hover {
+    color: red;
+}
+/* Старое Элементы были в теге <!--Верхняя навигация--> <p class="fon">
+.fon {    
+    word-spacing: 195px;
+    text-align: center;
+    background-color: rgb(221, 78, 26); 
+    padding: 25px 20px;   
+}
+*/
+.ul-fon-list {
+    background-color: rgb(221, 78, 26); 
+    padding: 30px;
+    
+}
+
+.fon-list {
+    background-color: rgb(221, 78, 26); 
+    display: inline;
+    
+    
+}   
+
+.a-fon-list {
+    background-color: rgb(221, 78, 26); 
+    text-decoration: none;
+    color:  rgb(226, 213, 213);
+    padding: 30px 70px;       
+}
+
+.a-fon-list:hover {
+    background-color: green;
+    color: red;
+}
+
+.center-page {
+    margin-left: 380px;
+    margin-top: 100px;
+    position: absolute;  top: 120%;
+    text-align: left;
+    
+    /*margin-left: 380px;
+    position: absolute;
+    top: 850px;*/
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0mm;
+}
+
+
+.Terms-of-Use, .Lorem-ipsum-dolor-sit-amet {
+    text-transform: lowercase;
+}
+
+.Terms-of-Use-right {
+    padding-right: 55px;
+}
+
+.Lorem-right {
+    padding-right: 55px;
+}
+
+.bottom-info {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.bottom-site{
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.left-panel {
+    padding-left: 40px;
+    padding-top: 40px;    
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0mm;
+}
+
+.list-style-type {
+    color: rgb(221, 78, 26);
+    list-style-type: '\22B3';    
+}
+
+li {
+    padding-left: 10px;
+}
+
+.Quisque-luctus {
+    line-height: 35px;
+}
+
+.Integer-rhoncus {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.Integer-rhoncus-h3 {
+    padding-bottom: 15px;
+}
+
+.Mauris-sagittis {
+    line-height: 35px;
+}
+
+.Mauris-sagittis-h3 {
+    padding-top: 15px;
+}
+
+.knopka {
+    padding-top: 20px;
+    float: right;    
+    margin-right: 100px;
+}
+
+#button {
+    text-align: center;
+    color: chocolate;
+    border-width: 1px;
+    border-color: rgb(226, 223, 210);
+    padding: 5px 10px;
+}
+
+#button:hover {
+    background-image: url(../image/sun.jpg);
+    background-size: 100%;        
+}
+
+#button:active {
+    color: darkblue;
+    background-color: darkgreen;
+}
+
+.Lorem-ipsum-dolor-sit-amet {
+    padding-top: 50px;
+}
+
+.info {
+    margin-bottom: 25px;
+    color:  rgb(134, 126, 126);
+}
+
+#down {
+    background-image: url(../image/bacgraund.jpg);
+    
+}
+
+.div-down-foto {
+    margin: 80px 40px 0px 20px;
+    
+          
+}
+
+.down-foto {    
+    width: 100%;
+    height: 300px;    
+    
+}
+
+.adress {        
+    position: relative;    
+    float: right;
+    margin: -145px 400px 20px auto;
+    
+    /*margin-left: 400px;    
+    margin-top: -145px;
+    text-align: left;
+    padding-bottom: 30px;*/ 
+    
+}

@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(../images/bacground21280.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: cover;    
+    background-attachment: fixed;
+    position: relative;
+    width: 1350px;
+}
+
+body {    
+    
+    width: 1280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.wraper {
+    position: inherit;
+
+}
+
+.top-button {
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+
+.button-style {
+    border-style: solid;
+    border-block-width: 8px;
+    border-color: black;
+    background-color: black;
+    width: 130px;
+    color: white;
+    border-radius: 17px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.button-style:hover {
+    color: red;
+    border-style: solid;
+    border-block-width: 8px;
+    border-color: blue;
+    background-color: blue;
+
+}
+
+
+nav {
+    margin-bottom: 60px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 43px;
+}
+
+ul li {
+    display: inline;    
+}
+
+.about:hover {
+    color: blue;
+}
+.menu:hover {
+    color: blue;
+}
+.branches:hover {
+    color: blue;
+}
+.contact:hover {
+    color: blue;
+}
+.faq:hover{
+    color: blue;
+}
+
+.main {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: "Arial";
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: "Montserrat";
+    margin-top: 15px;
+    
+}
+
+.bottom-button {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.lorem-play {
+   background-image: url(../images/Button-Lorem-Store.jpg);
+   overflow: visible;
+   height: 50px;
+   margin: 0px 10px 0px 0px;
+}
+
+.lorem-store {
+    background-image: url(../images/Button-Lorem-Store.jpg);
+    overflow: visible;
+    height: 50px;
+}
+
+
+.footer {
+    position: relative;
+    top: 160px;
+    margin-left: 50px;
+}
+
+a.twitter {    
+    display: block;
+    width: 20px; 
+    height: 20px;
+    background-image: url(../images/t.jpg); 
+    background-repeat: no-repeat;  
+    background-size: 20px;
+    position: relative;
+    top: 135px;
+    left: 50px;
+}
+.twitter:hover {
+    background-image: url(../images/twitter-read.jpg);
+}
+
+.faceboock {
+    display: block;
+    width: 20px; 
+    height: 20px;
+    background-image: url(../images/faceboock-yelow.jpg); 
+    background-repeat: no-repeat;  
+    background-size: 11px;
+    position: relative;
+    top: 112px;
+    left: 85px;
+}
+.faceboock:hover{
+    background-image: url(../images/faceboock-read.jpg);
+}
+
+.insta {
+    display: block;
+    width: 20px; 
+    height: 20px;
+    background-image: url(../images/instagramm-yelow.jpg); 
+    background-repeat: no-repeat;  
+    background-size: 20px;
+    position: relative;
+    top: 93px;
+    left: 110px;
+}
+.insta:hover{
+    background-image: url(../images/instagramm-read.jpg);
+}
+
+.button-l-r {
+    position: relative;
+    left: 1210px;
+    top: 60px;
+}
+
+.button-left {
+    display: block;
+    width: 30px; 
+    height: 30px;
+    background-image: url(../images/Button-left.jpg); 
+    background-repeat: no-repeat;  
+    background-size: 30px;
+}
+.button-left:hover {
+    background-image: url(../images/Button-left-red.jpg);
+}
+
+
+.button-right {
+    display: block;
+    width: 30px; 
+    height: 30px;
+    background-image: url(../images/Button-right.jpg); 
+    background-repeat: no-repeat;  
+    background-size: 30px;
+    position: relative;
+    top: -30px;
+    left: 35px;
+}
+.button-right:hover {
+    background-image: url(../images/Button-right-red.jpg);
+}

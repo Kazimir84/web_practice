@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto; 
+    overflow-x: hidden;   
+}
+
+body{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/bacground-image.jpg);
+    background-repeat: no-repeat;
+    width: 1350px;
+    background-size: 1350px;
+}
+.ulNavMenu {
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    margin-left: 450px;
+    top: -20px;
+}
+.ulNavMenu li {
+    padding: 35px;
+    position: relative;
+}
+.ulNavMenu li a {
+    text-decoration: none;
+    color: white;
+}
+.tableHeaderBlock tr td {
+    padding-left: 150px;
+    position: relative;
+    top: 245px;
+}
+.tableHeaderBlock tr td h3 {
+    margin-left: 90px;
+    top: -65px;
+    position: relative;
+    color: white;
+}
+.tableHeaderBlock tr td p {
+    position: relative;
+    left: 90px;
+    bottom: 65px;
+    color: white;
+}
+.tableHeaderBlock tr td h1 {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+    color: white;
+}
+.tableHeaderBlock tr td button {
+    position: relative;
+    left: 190px;
+    bottom: 85px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color: yellow;
+    color: #64affc;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+}
+.wrapper {
+    position: relative;    
+    height: 0px;
+}
+.mainBlock {
+    position: relative;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+.mainBlockTable {
+    position: relative;
+    top: 110px;
+}
+.mainBlockTable tr td {
+    padding: 20px;
+}
+.mainBlockTable tr td h2 {
+color: #959595;
+font-weight: 100;
+}
+.mainBlockTable tr td p {
+    padding: 5px 0px;
+    line-height: 25px;
+    color: #959595;
+}
+.mainBlockTable tr td button {
+    position: relative;
+    padding: 5px 20px;
+    color: white;
+    background-color: #1485ae;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+/* Правые боковые панели */
+.sidePanelTop {
+    position: relative;
+    margin-left: 860px;
+    bottom: 570px;
+}
+.sidePanelTop ul li {
+    list-style: none;
+    line-height: 30px;
+}
+.sidePanelTop ul li a{
+    text-decoration: none;
+    color: white
+}
+
+.sidePanelBottom {
+    position: relative;
+    margin-left: 860px;
+    bottom: 455px;
+    z-index: 1;
+}
+.sidePanelBottom ul li {
+    list-style: none;
+    line-height: 30px;
+}
+.sidePanelBottom ul li a{
+    text-decoration: none;
+    color: white
+}
+
+
+.footerBlock {
+    position: relative;
+    top: -510px;
+}
+.newsLetterForm {
+    position: relative;
+    top: 165px;
+    margin-left: 150px;
+    color: white;    
+}
+.newsLetterForm form h2{
+    font-weight: 100;
+    padding: 0px 0px 10px;
+}
+.newsLetterForm form input {
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px;
+    border-width: inherit;
+    background-color: #0f6686;
+    color: #80a2b3;
+}
+.newsLetterForm form button {
+    padding: 3px 5px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    color: #1380a7;
+    cursor: pointer;
+}
+.SocialMedia {
+    position: relative;
+    top: 200px;
+    margin-left: 150px;
+    color: white;
+}
+.SocialMedia h2 {
+    padding: 0px 0px 10px 0px;
+    font-weight: 100;
+}
+.contactUs {
+    position: relative;
+    margin-left: 510px;
+    top: 30px;
+    color: white;
+}
+.contactUs h2 {
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+.contactUs p {
+    line-height: 25px;
+}
+.contactForm {
+    position: relative;
+    margin-left: 830px;
+    top: -155px;
+    color: white;
+}
+.contactForm form h2 {
+    font-weight: 100;
+}
+.contactForm form input {
+    margin-bottom: 20px;
+    padding: 6px;
+    background-color: #0f6686;
+    border-radius: 5px;
+    border-width: inherit;
+    color: #759bae;
+}
+.contactForm form textarea {
+    background-color: #0f6686;
+    border-radius: 5px;
+    border-width: inherit;
+    color: #759bae;
+}
+.contactForm form button {
+    padding: 3px 10px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    color: #1380a7;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+address {
+    position: relative;
+    margin-left: 330px;
+    color: white;
+    margin-top: -150px;
+}

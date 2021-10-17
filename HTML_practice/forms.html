@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Детали формы</title>
+	</head>
+	<body>
+		<h1>Детали формы</h1>
+		<fieldset>
+			<legend>Персональная информация</legend>
+			<form>
+				<p>Имя*: <input type="text" name="username" size="15" maxlength="30"/></p>
+				<p>Фамилия*: <input type="text" name="lastname" size="15" maxlength="30"/></p>
+				<p>Возраст (полных лет)*: <input type="text" name="age" size="3" maxlength="2"/></p>
+				<label>Дата рождения*: </label>
+				<input type="date"  name="dd mm yy"/>
+				<br/>
+				<br/>
+				<label>Стать:</label>
+				<br/>				
+				<input id="female" type="radio" name="pol"> <label for="female">М</label>
+				<br/>
+				<input id="male" type="radio" name="pol"> <label for="male">Ж</label>
+				<br/>
+				<br/>
+				<label>Домашний адрес:</label>
+				<br/>
+				<textarea name="coments" cols="20" rows="4"></textarea>
+			</form>
+		</fieldset>
+		<fieldset>
+			<legend>Опрос</legend>
+			<form>
+				<p>Предпочтительная тематика книг:<input type="checkbox"/> Фантастика <input type="checkbox"/> Драматургия <input type="checkbox"/> Финансы <input type="checkbox"/> Менеджмент </p>
+				<p>Предпочитаемый устройство для чтения: <select name="ustroistva"><option selected="selected">Электронная книга</option><option>Домашний компьютер</option><option>Ноутбук</option><option>Смартфон</option><option>Электронная книга</option></select></p>
+			</form>
+		</fieldset>
+		<fieldset>
+			<legend>Email Рассылка</legend>
+			<form>
+				<br/>
+				<br/>
+				<label>Хотите получить рассылку:</label>
+				<br/>
+				<input id="yes" type="radio" name="pol"> <label for="yes">Да</label>
+				<br/>
+				<input id="no" type="radio" name="pol"> <label for="no">Нет</label>
+				<p><label>Email:<input type="text" name="email"/></label></p>
+			</form>
+		</fieldset>
+		<form>
+			<br/>
+			<input type="submit" value="Send"/>
+		</form>	
+	</body>
+</html>

@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;    
+}
+
+@font-face{
+    font-family: 'Nautilus';    
+    src: url('../fonts/nautilus-pompilius/Nautilus.otf');         
+    font-weight: 900;        
+    }
+
+.all-conteiner {
+    position: relative;   
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;  
+    background: linear-gradient(to top,#e1e1e1,#fefefe);  
+    padding-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #9f9c9c;
+}
+
+li {
+    list-style: none; 
+    
+}
+
+.photo-cage-app {
+    display: block;
+    font-size: 60px;
+    font-family: 'Nautilus';
+    text-align: left;
+    position: relative;
+    top: 50px;
+    padding-bottom: 40px;
+    margin-left: 140px;    
+}
+
+.photo {
+    color: rgb( 255, 119, 0 );
+}
+
+.cage-app {
+    color: rgb( 86, 85, 85 );
+}
+
+.upload-menu {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 0.988cm;
+    font-family: "HelveticaCE";
+    color: rgb( 86, 85, 85 );
+    font-weight: bold;
+    line-height: 0.821;
+    padding-bottom: 60px;
+    top: 40px;
+}
+
+.chouse-file {
+    border-style: solid;
+    border-color: rgb( 255, 119, 0 );
+    padding: 18px 10px 9px 10px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+  
+.upload-text{    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 20px;
+    left: 25px;
+}
+
+.fileform { 
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;    
+    height: 26px;    
+    padding: 13px 5px 13px 5px;        
+    width: 420px;
+    top: 40px;
+    left: 190px;
+}
+ 
+.fileform .selectbutton { 
+    background-color: #A2A3A3;
+    border: 1px solid #939494;
+    border-radius: 2px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 2px 6px;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+}
+ 
+.fileform #upload{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    -moz-opacity: 0; 
+    filter: alpha(opacity=0); 
+    opacity: 0; 
+    font-size: 150px; 
+    height: 30px; 
+    z-index:20;
+}
+
+.nav {
+    margin-top: auto;
+    width: 1190px;
+    display: block;
+    float: right;
+    margin-right: 0%;
+    margin-bottom: auto;
+}
+
+.li-nav {
+    position: relative;
+    left: 1005px;
+    top: -62px;    
+    text-align: center;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: initial;    
+}
+
+a.home {
+    padding: 70px 20px 32px 24px;    
+}
+
+a.home:hover {
+    border-bottom-style: solid;
+    border-bottom-color: rgb( 255, 119, 0 );    
+    border-bottom-width: 4px;
+    background: linear-gradient(to top,#ccc3c3,#fbfbfb);
+}
+
+.home {
+    position: absolute;
+    left: -185px;
+    top: -43px;
+}
+
+img.home {
+    background-color: #e4e4e4;
+}
+
+a.gallery {
+    padding: 74px 15px 32px 15px;    
+}
+
+a.gallery:hover{
+    border-bottom-style: solid;
+    border-bottom-color: rgb( 255, 119, 0 );    
+    border-bottom-width: 4px;
+    background: linear-gradient(to top,#ccc3c3,#fbfbfb);
+}
+
+.gallery {
+    position: absolute;
+    left: -95px;
+    top: -43px;
+}
+
+a.members {
+    padding: 72px 10px 32px 10px;    
+}
+
+a.members:hover{
+    border-bottom-style: solid;
+    border-bottom-color: rgb( 255, 119, 0 );    
+    border-bottom-width: 4px;
+    background: linear-gradient(to top,#ccc3c3,#fbfbfb);
+}
+
+.members {
+    position: absolute;
+    left: -10px;
+    top: -43px;
+}
+
+a.logout {
+    padding: 69px 15px 32px 15px;    
+}
+
+a.logout:hover{
+    border-bottom-style: solid;
+    border-bottom-color: rgb( 255, 119, 0 );    
+    border-bottom-width: 4px;
+    background: linear-gradient(to top,#ccc3c3,#fbfbfb);
+}
+
+.logout {
+    position: absolute;
+    left: 70px;
+    top: -43px;
+}
+
+.form-upload-menu {
+    margin-top: 25px;
+}
+
+.button {
+    background-color: rgb( 255, 119, 0 );
+    border-style: solid;
+    border-color:  rgb( 255, 119, 0 );
+    border-radius: 5px;
+    padding: 5px 10px 8px;
+    font-family: "HelveticaCE";
+    font-size: 0.847cm;
+    font-weight: bold;
+    color: rgb( 255, 255, 255 );
+    top: -15px;
+    left: 250px;
+}
+
+
+main {    
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul-images {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 74vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2vw;
+    width: 90%;
+}
+ 
+.images{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    border-style: double;
+    border-color: gainsboro;
+    border-width: 8px;    
+}
+
+p.date {
+    font-size: 18px;
+    font-family: "BebasNeue";    
+    color: rgb( 255, 255, 255 );    
+    position: absolute;
+    left: 5px;
+    top: 175px;
+    opacity: 0.8;
+    z-index: 12;
+}
+
+.star {
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+a.star-logo {
+    position: relative;
+    top: -20px;
+    left: 160px;
+    background: url(../images/star-logo.jpg);
+    display: block;
+    width: 23px;
+    height: 22px;
+}
+
+a.star-logo:hover{
+    background: url(../images/star-logo-blue.jpg);
+}
+
+.lorem {
+    left: 15px;
+    top: 10px;
+}
+
+.social-surce{
+    margin-top: 0px;
+    border-top-style: solid;
+    border-top-color: #b1aeae;
+    border-width: 1px;
+    display: block;
+    width: 203px;
+    height: 50px;    
+}
+
+.share {
+    position: relative;
+    left: 41px;
+    top: 17px;
+    color: #9f9c9c;
+    display: block;
+    width: 30px;
+    height: 10px;
+}
+
+a.telegram {
+    position: relative;
+    top: 3px;
+    left: 93px;
+    background: url(../images/telegram1-logo.jpg);
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+a.telegram:hover {
+   background: url(../images/telegram1-logo-blue.jpg);
+}
+
+a.telegram:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: -40px; top: 31px; 
+    width: 80px;
+    z-index: 1; 
+    background: black;
+    font-family: Arial, sans-serif; 
+    font-size: 10px; 
+    padding: 5px 10px; 
+    border: 1px solid #333; 
+    border-radius: 2px;
+    text-align: center;
+}
+
+/*Треугольник - указатель, начало*/
+.telegram::before{
+    content: '';
+    border: 9px solid transparent;
+    border-bottom: 9px solid rgba(0, 0, 0, 0.95);
+    position: absolute;
+    left: -5px; 
+    bottom: -8px; 
+    margin-left: 10px; 
+    visibility: hidden;
+ }
+ .telegram:hover::before {
+    visibility: visible;
+ }
+ /*Треугольник - указатель, конец*/
+
+a.facebook{
+    position: relative;
+    top: -21px;
+    left: 121px;
+    background: url(../images/fece-book-logo.jpg);
+   display: block;
+   width: 25px;
+   height: 25px;
+}
+
+a.facebook:hover {    
+    background: url(../images/fece-book-logo-blue.jpg);
+}
+
+a.facebook:hover::after {
+    content: attr(data-title);
+    position: absolute; 
+    left: -40px; top: 30px;
+    width: 80px;
+    z-index: 1; 
+    background: black; 
+    font-family: Arial, sans-serif; 
+    font-size: 10px; 
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/*Треугольник - указатель, начало*/
+.facebook::before{
+    content: '';
+    border: 9px solid transparent;
+    border-bottom: 9px solid rgba(0, 0, 0, 0.95);
+    position: absolute;
+    left: -7px; 
+    bottom: -8px; 
+    margin-left: 10px; 
+    visibility: hidden;
+ }
+ .facebook:hover::before {
+    visibility: visible;
+ }
+ /*Треугольник - указатель, конец*/
+
+a.p-logo {
+    position: relative;
+    top: -46px;
+    left: 146px;
+    background: url(../images/p-logo.jpg);
+   display: block;
+   width: 25px;
+   height: 25px;
+}
+
+a.p-logo:hover {
+    background: url(../images/p-logo-blue.jpg);
+}
+
+a.p-logo:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -40px; top: 30px;
+    width: 80px;
+    z-index: 1;
+    background: black;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/*Треугольник - указатель, начало*/
+.p-logo::before{
+    content: '';
+    border: 9px solid transparent;
+    border-bottom: 9px solid rgba(0, 0, 0, 0.95);
+    position: absolute;
+    left: -7px; 
+    bottom: -8px; 
+    margin-left: 10px; 
+    visibility: hidden;
+ }
+ .p-logo:hover::before {
+    visibility: visible;
+ }
+/*Треугольник - указатель, конец*/
+
+a.tvitter {
+    position: relative;
+    top: -71px;
+    left: 171px;
+    background: url(../images/tvitter-logo.jpg);
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+a.tvitter:hover {
+    background: url(../images/tvitter-logo-blue.jpg);
+}
+
+a.tvitter:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: -40px; top: 30px; 
+    width: 80px;
+    z-index: 1; 
+    background: black; 
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    padding: 5px 10px; 
+    border: 1px solid #333;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/*Треугольник - указатель, начало*/
+.tvitter::before{
+    content: '';
+    border: 9px solid transparent;
+    border-bottom: 9px solid rgba(0, 0, 0, 0.95);
+    position: absolute;
+    left: -6px; 
+    bottom: -8px; 
+    margin-left: 10px; 
+    visibility: hidden;
+ }
+ .tvitter:hover::before {
+    visibility: visible;
+ }
+/*Треугольник - указатель, конец*/
+
+address {
+    position: relative;  
+    width: 2100px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 870px;
+    top: 10px;
+    margin-bottom: 40px; 
+    font-style: normal; 
+    color: rgb( 86, 85, 85 );
+}
+
+.www {
+    font-family: auto;
+    font-style: normal; 
+    color: rgb( 86, 85, 85 );
+}
+
+.www:hover {
+    color: blue;
+}

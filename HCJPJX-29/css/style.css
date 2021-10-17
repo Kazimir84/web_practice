@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;       
+    font-family: "SegoeWP";
+    font-family: sans-serif;
+    position: relative;
+}
+
+html {
+    background-color: #ececec;       
+}
+
+.all{
+    /*width: 1280px;*/
+    margin-left: auto;
+    margin-right: auto;  
+    /*margin-bottom: 120px; */
+    /*border-style: solid;*/  
+}
+
+header {
+    position: inherit;
+    width: fit-content;
+    margin-left: auto;
+    left: -360px;
+    margin-right: auto;   
+}
+
+.indo-tourism-top {
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 100px;       
+}
+
+.indo-tourism {
+    font-size: 1.282cm;    
+    color: rgb( 18, 152, 221 );      
+  }
+
+.tourism {
+    font-size: 1.282cm;   
+    color: #8d8d8d;    
+}
+
+a {
+    text-decoration: none; 
+    color: rgb( 103, 103, 103 );
+  }
+
+a:hover {
+    color: red;
+}
+
+.div-nav-panel {
+    font-size: 0.6cm;
+}
+
+.top-button {
+    position: relative;       
+    top: -40px;        
+    left: 620px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    font-size: 25px;
+    /*color: rgb( 103, 103, 103 );*/
+    background-color: blue;
+    color:white;
+}
+
+.top-link {
+    position: relative;       
+    top: -40px;        
+    left: 620px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    font-size: 25px;
+    color: rgb( 103, 103, 103 );
+}
+
+main {
+    height: 1180px;
+}
+
+.div-font-foto {        
+    background-image: url("../image/Layer_3.jpg");
+    background-size: 100%;
+    /*height: 590px;*/
+    height: 645px;
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    
+}
+
+
+
+/*.background-image {    
+    background-image: url("../image/Layer_3.jpg");
+    background-size: 100%;
+    height: 590px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+*/
+.center-text {
+    position: inherit;        
+    /*margin: -420px 0px 600px 0px;*/
+    margin: -20px 0px 600px 0px; /*new*/
+    color: white;
+    text-align: center;
+    font-size: 24px;        
+}
+
+.i-like-to-ask-the-same-question {
+    font-family: "SegoeWP", sans-serif;
+    font-weight: 600;
+    background-color: initial;
+    top: 230px; /*new*/
+}
+
+.many-many-times {
+    font-family: "SegoeWP", sans-serif;
+    font-weight: 100;    
+    background-color: initial;
+    top: 230px; /*new*/
+}
+
+.button {
+    position: inherit; 
+    margin: -550px 0px 0px 0px; 
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;  
+    top: 230px; /*new*/
+}
+
+.ok-ask-me {
+    font-family: sans-serif;
+    padding: 10px 65px;
+    background-color:#55c240;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgba(2, 146, 230, 0.3);    
+    border-width: 5px;      
+}
+
+.ok-ask-me:hover {
+background-color: red;
+}
+  
+.fon-option {    
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 445px;
+    height: 260px;    
+    /*background-color: #ececec;*/
+    background-color: white;
+    border-radius: 5px;
+    border-bottom-style: solid;
+    border-color: green;
+    border-width: 5px;
+    top: 210px; /*new*/
+}
+
+.places {
+    font-size: 0.588cm;    
+}
+
+.places-you-mus-visit-in-your-lifetime {
+    padding-top: 20px;    
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: rgb( 103, 103, 103 );    
+}
+
+.div-verhniy-ryad {
+    width: 500px;
+}
+
+.li-verhniy-ryad {
+    float: left;
+    list-style-type: none;
+    padding: 10px 5px 10px 5px;
+}
+
+.verhniy-ryad-foto:hover{
+    background-color: red;  
+    color:white;
+    border-radius: 5px;      
+}
+
+.img-verhniy-ryad:hover{
+    border-radius: 10px;    
+}
+
+.div-nigniy-ryad {
+   width: 500px;
+}
+
+.li-nigniy-ryad {
+    list-style-type: none;
+    float: left;
+    padding: 10px 5px 10px 5px;
+}
+
+.we-since {
+    margin-top: 80px;    
+    text-align: center;
+    color: rgb( 103, 103, 103 );
+    line-height: 45px;
+    font-size: 0.93cm;
+    top: 200px; /*new*/
+}
+
+.div-down-menu {
+    margin-top: 200px;
+    top: 200px; /*new*/
+}
+
+.ul-div-down-menu {
+    justify-content: center;
+    display: flex;
+}
+.li-div-down-menu {  
+    display: inline-block;  
+    list-style-type: none;    
+    position: relative;
+    margin-left: 80px;
+    font-size: 0.718cm;
+}
+
+.sites-the-world {
+    margin-left: -25px;
+}
+
+.photography {
+    margin-left: -10px;
+}
+
+.find-the-best {
+    margin-left: -5px;
+}
+
+.shopping {
+    margin-left: -7px;
+}
+
+.border {
+    border-radius: 75px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: white;
+}
+
+.border2 {
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 33px;
+    border-color: white;
+}
+
+.border3 {
+    padding: 11px;
+    border-radius: 70px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: white;
+    background-color: white;
+}
+
+.border4 {    
+    border-radius: 65px;
+    border-style: solid;
+    border-width: 37px;
+    border-color: white;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    margin-top: 110px;
+    text-align: center;    
+}
+
+.address-Designed {    
+    background-color: rgb(32, 31, 31);
+}
+.address-cssauthor {
+    color: white;
+    background-color: rgb(32, 31, 31);
+}

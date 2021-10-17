@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;              
+}
+html {
+    background-color: rgba(159, 104, 65, 0.815);    
+}
+
+.all {     
+    position: relative;   
+    width: 1280px; 
+    margin-left: auto;
+    margin-right:auto; 
+    width: max-content;     
+    /*margin: 0px 200px 30px 200px;*/
+    background-color: white;    
+    padding-bottom: 170px;   
+    border-bottom: solid;
+    border-color: rgba(159, 104, 65, 0.815);
+    border-width: 40px; 
+}
+
+/*.main-content {    
+    width: max-content;     
+    margin: 0px 200px 30px 200px;
+    background-color: white;    
+    padding-bottom: 170px;       
+}
+*/
+.top-name {
+    font-size: 50px;
+    color:rgb(245, 239, 239);
+    background-color: rgba(159, 104, 65, 0.815);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.top-adress {
+    color:  rgb(218, 200, 200);   
+    text-align: right;
+    /*padding-right: 180px;*/
+    margin: 15px;
+    position: absolute; top: 70px; right: 40px;    
+    max-width: 300px;
+    min-width: 100px;
+    font-style: normal;    
+    background-color: initial;    
+}
+
+.top-site {
+    color:  rgb(218, 200, 200);
+}
+
+.top-site:hover{
+    color: red;
+}
+
+.ul-fon-list {    
+    background-color: black;
+    margin: 10px 10px 10px 10px;    
+    width: 923px;    
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.fon-list {
+    font-size: 10px;
+    display: inline;
+    color: blanchedalmond;
+    background-color: black;       
+}
+
+.a-fon-list {
+    background-color: black; 
+    text-decoration: none;
+    color:  rgb(226, 213, 213);
+    width: 910px;
+    padding: 15px 65px 12px;         
+}
+
+.a-fon-list:hover {
+background-color:rgb(27, 48, 57);
+}
+
+.top-foto {
+    size: 80%;
+    width: 923px;
+    margin: 0px 10px 0 10px;    
+}
+
+.central-conteiner{
+    margin: 10px 10px 10px 25px;
+    width: 550px;    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(171, 187, 141);
+}
+
+.a-style:hover {
+    color: red;
+}
+
+h2 {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(159, 104, 65, 0.815);
+}
+
+.terms-of-use-text {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.lorem-ipsum-dolor-sit-amet-conteiner {
+    margin-top: 40px;        
+}
+
+.right-panel {    
+    position: absolute; 
+    top: 420px;
+    left: 636px;
+    width: 300px;
+}    
+
+.saepe-repellendus {
+    margin-bottom: 20px; 
+    padding-top: 5px;     
+    background-color: rgb(239, 237, 229);    
+}
+
+.saepe-repellendus-h3 {      
+    color:white ;
+    padding-left: 10px;
+    background-color: rgb(93, 158, 189);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+}
+
+.saepe-repellendus-list {    
+    line-height: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.list-style-type {   
+   list-style-type: none;   
+}
+
+.integer-rhoncus {       
+    background-color: rgb(239, 237, 229);
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.integer-rhoncus-h3 {
+    color:white ;
+    padding-left: 10px;
+    background-color: rgb(93, 158, 189);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.integer-rhoncus-text {
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.Mauris-sagittis {    
+    padding-top: 5px;
+    margin-bottom: 20px;    
+    background-color:  rgb(239, 237, 229);   
+}
+
+.Mauris-sagittis-h3 {
+    color:white ;
+    padding-left: 10px;
+    background-color: rgb(93, 158, 189);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Mauris-sagittis-list {
+    line-height: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(209, 228, 167);
+    top: 150px;
+    padding: 20px 285px 20px 270px;    
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+.adress-url:hover{
+    color: red;
+}
