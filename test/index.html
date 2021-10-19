@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Clock</title>
+</head>
+<body>   
+    <div id="carousel" class="carousel">
+        <button class="arrow prev">❮</button>
+        <div class="gallery">
+            <ul class="images">
+                <li><img src="./img/1.jpg" alt="1"></li>
+                <li><img src="./img/2.jpg" alt="2"></li>
+                <li><img src="./img/3.jpg" alt="3"></li>
+                <li><img src="./img/4.jpg" alt="4"></li>
+                <li><img src="./img/5.jpg" alt="5"></li>
+                <li><img src="./img/6.jpg" alt="6"></li>
+                <li><img src="./img/7.jpg" alt="7"></li>
+                <li><img src="./img/8.jpg" alt="8"></li>
+                <li><img src="./img/9.jpg" alt="9"></li>
+                <li><img src="./img/10.jpg" alt="10"></li>
+                <li><img src="./img/11.jpg" alt="11"></li>
+                <li><img src="./img/12.jpg" alt="12"></li>
+                <li><img src="./img/13.jpg" alt="13"></li>
+                <li><img src="./img/14.jpg" alt="14"></li>
+                <li><img src="./img/15.jpg" alt="15"></li>
+                <li><img src="./img/16.jpg" alt="16"></li>
+                <li><img src="./img/17.jpg" alt="17"></li>
+                <li><img src="./img/18.jpg" alt="18"></li>
+                <li><img src="./img/19.jpg" alt="19"></li>
+                <li><img src="./img/20.jpg" alt="20"></li>
+            </ul>
+        </div>
+        <button class="arrow next">❯</button>
+        <button id="start">Старт слайда с начала</button>
+    </div>
+    <div class="clickDate">
+        <div id="clock"></div>
+    <canvas id="Canvas" width="1450" height="120" onclick="increment()"></canvas>
+    <canvas id="CanvasSlide" width="1450" height="120"></canvas>
+    <button id="buttonClick">Кликни на меня</button>
+    <button id="buttonClear">Очистить счетчик кликов</button>
+    </div>
+    
+    
+    <button id="addLi" style="position: inherit;">Add Li</button>
+    <button id="dellLi" style="position: inherit;">Dell Li</button>
+
+    
+    <button id="AddTd" style="position: inherit;">Add Td</button>
+    <button id="dellTd" style="position: inherit;">Dell Td</button>
+
+    <!-- Предотвращения поведения по умолчанию -->
+    <form action="">
+        <div>
+            <label for="fname">Имя: </label>
+            <input type="text" id="fname">
+        </div>
+        <div>
+            <label for="lname">Фамилия: </label>
+            <input type="text" id="lname">
+        </div>
+        <div>
+            <input type="submit" id="submit">
+        </div>
+    </form>
+    <p></p>
+
+    <button id="pow4" style="left: 5%;">Возведение в степень</button>
+
+
+    <div>
+        <input type="button" value="Test1">
+        <input type="button" value="Test2">
+        <input type="button" value="Test3">
+        <input type="button" value="Test4">
+        <input type="button" value="Test5">
+        <input type="button" value="Test6">
+      </div>
+
+    <script src="./js/main.js"></script>    
+</body>
+</html>

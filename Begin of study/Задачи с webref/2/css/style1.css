@@ -1,0 +1,82 @@
+body {
+    background: cornflowerblue;
+}
+strong {
+    color: red;
+    font-style: oblique;
+}
+b {
+    color: rgb(8, 218, 25);
+    font-size: 50px;
+}
+p {
+    color: blue;
+    background-color: chartreuse;
+    font-size: 40px;
+    text-indent: 10px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+   
+    text-shadow:0px 2px 1px red; /* 10 - смещение вправо, 2 - смещение вниз  1 - степень размытия*/
+}
+p::first-letter {
+    font-size: 200%;
+    color: black;  
+}
+p::first-line {
+    font-size: 300%;
+    color: darkmagenta;
+}
+a:link {
+    color: indigo;
+    text-decoration: none;
+}
+a:visited {
+    color: navajowhite;
+}
+.pic {
+    margin-left: 400px;
+    border-color: lawngreen;
+    border-style: outset;
+    
+    position: absolute;
+    
+}
+.text {
+    text-align: center;
+    
+}
+.picture {
+    vertical-align: text-top;
+}
+input.submit:active {
+    background-color: orangered;
+}
+input.text:focus {
+    color: saddlebrown;
+}
+img.picture:focus {
+    color: sienna;
+}
+a:link {
+    color: crimson;
+    text-decoration: none;
+}
+a:visited {
+    color: darkgreen;
+}
+a:hover {
+    color: darkgrey;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+a:focus {
+    color:violet;
+}
+p.text{
+    -moz-border-image: url("images/dots.gif") stretch;
+    -webkit-border-image: url(images/dots.gif) stretch;
+    border-image: url(images/dots.gif) stretch;
+}

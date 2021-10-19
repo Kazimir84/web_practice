@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>js</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <input type="text" value="first-name-value" id="first-name-id" class="first-name-class">
+    <input type="text" value="last-name-value" id="last-name-id" class="last-name-class">
+    <input type="text" value="address-value" id="address-id" class="address-class">
+    
+    <select name="" id="cities">
+        <option>Chernigov</option>
+        <option selected='selected'>Kiev</option>
+        <option>Dnipro</option>
+    </select>
+
+    <textarea name="" id="hobbies" cols="30" rows="10">HTML, CSS, JS</textarea>
+    
+    <div id='avatar-conteiner'><img id="avatar" src="https://upload.wikimedia.org/wikipedia/ru/4/40/%D0%9F%D0%98%D0%9A_%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%8B.gif" alt="avatar"></div>
+    <h1>
+        Picap
+    </h1>
+    <ul>
+        <li>Стрижка</li>
+        <li>Одежда</li>
+        <li>шутки</li>
+        <li>контакт</li>
+        <li>пошутить</li>
+        <li>посмеяться</li>
+        <li>телефон</li>
+    </ul>
+    <script>
+        var firstNameId = 'first-name-id';
+       var firstNameValue = document.getElementById(firstNameId);  
+       var lastNameId  = 'last-name-id';
+       var lastNameValue = document.getElementById(lastNameId);
+       var addressId = 'address-id';
+       var addressValue = document.getElementById(addressId);
+       var citiesId ='cities';
+       var citiesEl =document.getElementById(citiesId);
+       var hobbiesId ='hobbies';
+       var hobbiesEl =document.getElementById(hobbiesId);
+       var avatarConteinerId ='avatar-conteiner';
+       var avatarConteinerEl =document.getElementById(avatarConteinerId);
+       var avatarId='avatar';
+       var avatarEl=document.getElementById(avatarId);
+       
+
+       window.alert (avatarEl.alt);
+    //    window.alert (avatarEl.src);
+    //    window.alert (citiesEl.innerHTML);
+        // window.alert (hobbiesEl.innerHTML);
+    //    window.alert (avatarConteinerEl.innerHTML);
+    //   window.alert (avatarConteinerEl.value);
+       
+    //     window.alert (hobbiesEl.value);
+    //    window.alert (citiesEl.value);
+
+    //    window.alert (firstNameValue.value);
+    //    window.alert (firstNameId);
+    //    window.alert (firstNameValue.className);
+    //    window.alert (firstNameId.id);           
+
+    //    window.alert (lastNameValue.value);       
+
+    //    window.alert (addressValue.value);
+
+    </script>
+</body>
+
+</html>

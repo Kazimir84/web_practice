@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bottom</title>
+        <style>
+            figure {
+             position: relative;
+             display: inline-block;
+            }
+            img { 
+                display: block; 
+            }
+            .expand {
+              position: absolute;
+              width: 30px;
+              height: 30px;
+              right: 15px;
+              bottom: 15px;
+              padding: 5px;
+              background: rgba(255, 255, 255, 0.5) url(./img/expand.png) 50% 50% no-repeat;
+              background-size: 30px;
+              border: 1px solid #333;
+            }
+           </style>
+    </head>
+    <body>
+        <figure>
+            <img src="./img/dessert.jpg" alt="cake">
+            <a href="#" class="expand"></a>
+        </figure>
+    </body>
+</html>

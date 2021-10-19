@@ -1,0 +1,29 @@
+html{
+    overflow-x: hidden;
+}
+.circle{
+    background-image: url(../image/circle.png); 
+    width: 350px;
+    height: 350px;
+    border-radius: 9999px;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;  
+
+    transition: 5s;
+    transition-timing-function: ease-in-out;
+
+    position: relative;
+    top: -160px;
+    left: 36%;
+}
+p{
+    position: relative;
+    left: 310px;
+    font-size: 70px;
+}
+.arrow{    
+    position: relative;
+    left: 300px;
+    top: -75px;    
+}
